@@ -1,0 +1,754 @@
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+
+#adres {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  right: 8px;
+  top: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+
+#adres:hover .lista {
+  display: block;
+}
+
+
+#logo{
+  float: left;
+  margin-left: 30px;
+}
+
+#firma{
+  position:absolute;
+  width: 70px;
+  height: 60px;
+  right: 161px;
+  top: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.lista{
+  position: absolute;
+  color: white;
+  background-color: black;
+  width:inherit;
+  display: none;
+  margin-top: 7px;
+  font-size: 10px;
+}
+
+#firma:hover .lista {
+  display: block;
+}
+
+.lista :hover {
+  background-color: white;
+  color:black;
+}
+
+#galeria{
+  position:absolute;
+  width: 70px;
+  height: 60px;
+  right: 85px;
+  top: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+
+#galeria:hover .lista {
+  display: block;
+}
+
+span{
+  color: turquoise;
+}
+
+#naglowek{
+width: 100%;
+height: 300px;
+background-image:
+  linear-gradient(180deg,
+                  white,
+                  lightgrey);
+position: relative;
+}
+
+
+#lewy {
+  position: absolute;
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  left: 0%;
+}
+
+#znak{
+  position: absolute;
+  top: 30%;
+  left: 15px;
+  font-size: 40px;
+  color: turquoise;
+  display: block;
+}
+
+#fotel{
+  background-image: url("../black_chair.png");
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 20%;
+
+}
+
+#prawy{
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+
+#znak2{
+  position: absolute;
+  top: 30%;
+  right: 15px;
+  margin-right: 15px;
+  font-size: 40px;
+  color: turquoise;
+
+}
+
+#sit {
+  display: block;
+  font-size: 30px;
+}
+
+#lorem {
+  display: block;
+  font-size: 17px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#klik {
+  display: block;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-top: 50px;
+  background-color: turquoise;
+  text-align: center;
+  position: relative;
+}
+
+#zob {
+  position: absolute;
+  left: 7px;
+  bottom: -3px;
+}
+
+#clair{
+  margin-left: 50px;
+  height: 270px;
+  width: 380px;
+  background-image: url(../box1_img.jpg);
+  background-size: cover;
+  float: left;
+  margin-top: 20px;
+  position: relative;
+}
+
+#trans {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  top: 70%;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+#margarita {
+  margin-left: 50px;
+  height: 270px;
+  width: 380px;
+  background-image: url(../box2_img.jpg);
+  background-size: cover;
+  float: left;
+  margin-top: 20px;
+  position: relative;
+}
+
+#note {
+  margin-left: 50px;
+  height: 300px;
+  width: 380px;
+  border: 1px solid grey;
+  float: left;
+  margin-top: 20px;
+  position: relative;
+}
+
+#inputy{
+  margin-left: 10px;
+}
+
+#chair {
+  position: absolute;
+  margin-left: 10px;
+}
+
+#pasek {
+  position: absolute;
+  bottom: 24px;
+  width: 40%;
+  height: 7px;
+  background-color: turquoise;
+  margin-left: 10px;
+}
+
+#pasek2 {
+  position: absolute;
+  width: 40%;
+  height: 7px;
+  background-color: turquoise;
+  margin-left: 10px;
+  top: 37px;
+}
+
+.tekst {
+  margin: 20px;
+}
+
+
+#cennik{
+  width: 100%;
+  height: 750px;
+  background-color: rgb(245, 245, 245);;
+  position: relative;
+  top: 380px;
+}
+
+#cen{
+  margin-left: 50px;
+  position: absolute;
+  top: 20px;
+}
+
+#pasek3 {
+  position: absolute;
+  width: 200px;
+  height: 7px;
+  background-color: turquoise;
+  margin-left: 50px;
+  top: 57px;
+}
+
+#cena1{
+  margin-left: 50px;
+  height: 550px;
+  width: 380px;
+  float: left;
+  border: 1px solid grey;
+  position: absolute;
+  top: 150px;
+}
+
+#okreg1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  top: -35px;
+  left: 165px;
+}
+
+#kolko1{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 50%;
+  left: 12px;
+  top: 11px;
+}
+
+.plan{
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  text-align: center;
+  display: block;
+  left: 131px;
+}
+
+#basic {
+  color: turquoise;
+}
+
+.oferta{
+  background-color: white;
+  border: 1px solid grey;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 115px;
+}
+
+.zl{
+ font-size: 40px;
+ color: grey;
+ display: block;
+ float: left;
+ margin-left: 45px;
+}
+
+.gr {
+  font-size: 15px;
+  color: grey;
+  display: block;
+  float: left;
+  margin-top: 40px;
+}
+
+.wal {
+  font-size: 15px;
+  color: grey;
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+
+.details1{
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 45%;
+  text-align: center;
+}
+
+#zakup{
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  top: 0;
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+#serwis{
+  top: 38px;
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+
+.join{
+  position: absolute;
+  display: block;
+  bottom: 20px;
+  left: 140px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: turquoise;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 10px;
+}
+
+
+/*cena2*/
+
+#cena2{
+  margin-left: 480px;
+  height: 550px;
+  width: 380px;
+  border: 1px solid turquoise;
+  background-color: turquoise;
+  position: absolute;
+  top: 150px;
+}
+
+#okreg2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: turquoise;
+  border: 1px solid turquoise;
+  border-radius: 50%;
+  top: -35px;
+  left: 165px;
+}
+
+#kolko2{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  left: 12px;
+  top: 11px;
+}
+
+.plan{
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  text-align: center;
+  display: block;
+  left: 131px;
+}
+
+#basic2 {
+  color: turquoise;
+}
+
+.oferta2{
+  background-color: white;
+  border: 1px solid turquoise;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 115px;
+}
+
+.zl2{
+ font-size: 40px;
+ color: turquoise;
+ display: block;
+ float: left;
+ margin-left: 45px;
+}
+
+.gr2 {
+  font-size: 15px;
+  color: turquoise;
+  display: block;
+  float: left;
+  margin-top: 40px;
+}
+
+.wal2 {
+  font-size: 15px;
+  color: turquoise;
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+
+.details2{
+  position: absolute;
+  width: 100%;
+  height: 22.5%;
+  top: 45%;
+  text-align: center;
+}
+
+#zakup2{
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  padding-top: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  color: darkgrey;
+}
+#serwis2{
+  top: 40px;
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+
+#gwarancja{
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  background-color: white;
+  top: 75px;
+  font-size: 20px;
+  padding-top: 5px;
+  color: darkgrey;
+}
+
+.join2{
+  position: absolute;
+  display: block;
+  bottom: 20px;
+  left: 140px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  color: turquoise;
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 10px;
+}
+
+#cena3{
+  margin-left: 910px;
+  height: 550px;
+  width: 380px;
+  border: 1px solid grey;
+  position: absolute;
+  top: 150px;
+}
+
+
+.zl3{
+ font-size: 40px;
+ color: grey;
+ display: block;
+ float: left;
+ margin-left: 30px;
+}
+
+.gr3 {
+  font-size: 15px;
+  color: grey;
+  display: block;
+  float: left;
+  margin-top: 40px;
+}
+
+.details3{
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 45%;
+  text-align: center;
+}
+
+#zakup3{
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  top: 0;
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+#serwis3{
+  top: 38px;
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+
+
+#gwarancja3{
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  top:76px;
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+#porady{
+  top: 114px;
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 5px;
+  font-size: 20px;
+  color: darkgrey;
+}
+
+#formul{
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  position: relative;
+  top: 380px;
+}
+
+#kontakt {
+  position: absolute;
+  top: 21px;
+  left: 50px;
+}
+
+#formularz{
+    position: absolute;
+    margin-left: 50px;
+    top: 100px;
+    width: 1283px;
+    height: 400px;
+}
+
+#f1{
+  position: absolute;
+  font-size: 25px;
+  width: 700px;
+  height: 70px;
+  color: lightgrey;
+  border: 1px solid turquoise;
+}
+
+#f2{
+  position: absolute;
+  font-size: 25px;
+  width: 700px;
+  height: 70px;
+  top: 107px;
+  color: lightgrey;
+  border: 1px solid turquoise;
+}
+
+#f3{
+  position: absolute;
+  font-size: 25px;
+  width: 700px;
+  height: 210px;
+  top: 200px;
+  color: lightgrey;
+  border: 1px solid turquoise;
+}
+
+#redchair{
+  position: absolute;
+  right: 170px;
+  top: -50px;
+  width: 250px;
+  height: 230px;
+  background-image: url("../red_chair.png")
+}
+
+
+input[type='checkbox'] {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  width:50px;
+  height:50px;
+}
+
+#dane{
+  position: absolute;
+  top: 175px;
+  left: 860px;
+  color: lightgrey;
+  font-size: 25px;
+}
+
+#f5{
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  width: 390px;
+  height: 80px;
+  background-color: turquoise;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+#prawa{
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  font-size: 12px;
+  display: block;
+  color: lightgrey;
+}
+
+#brand{
+  position: absolute;
+  top: 500px;
+  right: 90px;
+  color: lightgrey;
+  font-weight: bold;
+}
+
+#on{
+  color: grey;
+}
+
+
+.loga{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 505px;
+  background-size: contain;
+}
+
+#tw{
+  right: 360px;
+  background-image: url("../images/twitter.png");
+}
+
+#sp{
+  right: 390px;
+  background-image: url("../images/pinterest.png");
+}
+
+#vimeo{
+  right: 420px;
+  background-image: url("../images/vimeo.png");
+}
+
+#fr{
+  right: 450px;
+  background-image: url("../images/flickr.png");
+}
+
+
+
+
+/*#cena3:hover #okreg1 {
+  background-color: red;
+}*/
